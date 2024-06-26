@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 export const ExampleUsecaseHook = () => {
     const [exampleName, setExampleName] = useState('First Example');

@@ -1,5 +1,6 @@
 
 import './App.css'
+import ExampleUseEffectHook from './components/ExampleUseEffectHook'
 import { ExampleUsecaseHook } from './components/ExampleUsecaseHook'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
     <ExampleUsecaseHook />
+    <ExampleUseEffectHook />
     </>
   )
 }
